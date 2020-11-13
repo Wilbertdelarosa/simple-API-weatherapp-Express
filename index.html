@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <meta charset="utf-8">
+        <title>Weather APP with Openweather API</title>
+        <style>
+            
+            .card {
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+                padding: 16px;
+                text-align: center;
+                background-color: #f1f1f1;
+                }
+        </style>
+    </head>
+
+    <body>
+        <h1>Enter a city name to find its current temperature, and weather using Openweather API</h1>
+        <div class = "card">
+            <form action="/" method="post">
+                <label for = "cityInput"> City Name: </label>
+                <input id = "cityInput" type="text" name = "cityName" placeholder="Enter name of city">
+                <button type = "submit" >Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
